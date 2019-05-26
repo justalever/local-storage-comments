@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Let's Build with JavaScript - Local Storage Comments</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="comment-container">
+      <h3 class="comment-container-title">Comments</h3>
+      <div class="comments">
+        <div class="comment flex items-start justify-start">
+          <img
+            class="comment-avatar"
+            src="https://secure.gravatar.com/avatar/d1f5ca0d7e625f334c5186e112b77ebd"
+          />
+          <div class="flex-1">
+            <h3 class="comment-author">Andy Leverenz</h3>
+            <p class="comment-body">First comment of some type!</p>
+          </div>
+        </div>
+      </div>
+      <div class="comment comment-new flex items-start justify-start">
+        <img
+          class="comment-avatar"
+          src="https://secure.gravatar.com/avatar/d1f5ca0d7e625f334c5186e112b77ebd"
+        />
+        <div class="flex-1">
+          <h3 class="comment-author">Andy Leverenz</h3>
+          <form action="#" class="comment-form">
+            <textarea
+              placeholder="Add a comment"
+              class="comment-input"
+            ></textarea>
+            <input type="submit" class="comment-submit" value="Reply" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
