@@ -1,5 +1,4 @@
 const submit = document.querySelector('.comment-submit');
-const form = document.querySelector('.comment-form');
 const commentList = document.querySelector('.comments');
 const commentInput = document.querySelector('.comment-input');
 
